@@ -5,6 +5,8 @@
 p {
   margin-top: 0; 
   color:var(--main2);
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 
@@ -24,10 +26,16 @@ body {
 /* font default */
 h2, h3, h4, h5, h6 {
   color: var(--main2);
+  line-height: 1.6;
 }
 h2, h3 {
   font-weight: bold; 
-  margin-top: 30px;
+  margin-top: 60px;
+}
+
+h3 {
+  padding-top: 30px;
+  font-size: 30px;
 }
 
 
@@ -110,11 +118,44 @@ hr {
   padding-top:10px;
 }
 
+.project-details p {
+  padding-bottom: 10px;
+}
+
+.project-details h3 {
+  padding-top: 20px;
+}
 .project-details h1{
   padding-top:20px;
   font-size: 24px;
   color: var(--main);
 }
+
+/* center text */
+.center-text {
+  text-align: center;
+}
+
+p.center-text {
+  text-align: center;
+  color: var(--main);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h3.center-text {
+  font-size: 30px;
+  padding-top: 30px;
+}
+p.highlight {
+  color: var(--main);
+}
+
+.scaled-image {
+  width: 600px; 
+  height: auto; 
+}
+
 
 
 
